@@ -13,10 +13,14 @@ header {
     height: 450px;
 }
 
-a, .one {
+a, .one, .text {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.text {
+    color: gray;
 }
 
 ul {
@@ -73,5 +77,32 @@ ul {
     border: #1F2937;
 }
 
+.description  {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.items { 
+    display: flex;
+    flex-direction: row;
+    gap: 52px;
+}
 
+.item {
+    text-align: center;
+}
+
+.title2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900px;
+}
+
+.quote{
+    width: 500px;
+    height: auto;
+    background-color: #e5e7eb;
+}
