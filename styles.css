@@ -68,7 +68,7 @@ ul {
 }
 
 
-.btn1 {
+.btn1, .btn2 {
     background-color: #3882F6;
     color: white;
     width: 120px;
@@ -76,7 +76,7 @@ ul {
     padding: 10px;
     border-radius: 10px;
     font-weight: bold;
-    border: #1F2937;
+    border: none;
     font-size: 20px;
 }
 
@@ -116,12 +116,79 @@ ul {
     height: 400px;
     background-color: #e5e7eb;
     margin-top: 100px;
+    padding-right: 100px;
 }
 
 .quotetext {
+    max-width: 900px;
+}
+
+.autortext {
     text-align: left;
     font-size: 36px;
     color: #1F2937;
     font-weight: 300px;
-    max-width: 900px;
+    margin-bottom: 0px;
+}
+
+.autor {
+    margin-top: 0px;
+    font-size: 30px;
+    text-align: right;
+    font-weight: bold;
+    align-items: baseline;
+}
+
+
+.container {
+    padding: 90px 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    background-color: #3882F6;
+    height: 150px;
+    width: 1000px;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-right: 100px
+}
+
+#actiontitle {
+    margin-top: 0;
+    margin-bottom:0px;
+    font-size: 27px;
+    color: #f9faf8
+}
+.actiontext {
+    font-size: 19px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+#Signbtn {
+    border: solid 2px #e5e7eb;
+    height: 50px;
+}
+
+footer {
+    background-color: #1F2937;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footertext {
+    color:  #f9faf8;
 }
